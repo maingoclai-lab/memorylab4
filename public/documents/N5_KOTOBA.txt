@@ -1,0 +1,883 @@
+私 | Tôi / わたし
+私たち | Chúng tôi, chúng ta / わたしたち
+あの人 | Người kia / あのひと
+あの方 | Vị kia (lịch sự) / あのかた
+皆さん | Mọi người / みなさん
+先生 | Thầy, cô (gọi) / せんせい
+教師 | Giáo viên (nghề nghiệp) / きょうし
+学生 | Học sinh, sinh viên / がくせい
+会社員 | Nhân viên công ty / かいしゃいん
+銀行員 | Nhân viên ngân hàng / ぎんこういん
+医者 | Bác sĩ / いしゃ
+研究者 | Nhà nghiên cứu / けんきゅうしゃ
+大学 | Trường đại học / だいがく
+病院 | Bệnh viện / びょういん
+電気 | Điện, đèn điện / でんき
+誰 | Ai / だれ
+何歳 | Mấy tuổi / なんさい
+本 | Sách / ほん
+辞書 | Từ điển / じしょ
+雑誌 | Tạp chí / ざっし
+新聞 | Báo / しんぶん
+手帳 | Sổ tay / てちょう
+名刺 | Danh thiếp / めいし
+鉛筆 | Bút chì / えんぴつ
+鍵 | Chìa khóa / かぎ
+時計 | Đồng hồ / とけい
+傘 | Ô, dù / かさ
+鞄 | Cặp sách / かばん
+自動車 | Ô tô / じどうしゃ
+机 | Bàn / つくえ
+椅子 | Ghế / いす
+英語 | Tiếng Anh / えいご
+日本語 | Tiếng Nhật / にほんご
+何 | Cái gì / なん
+教室 | Phòng học / きょうしつ
+食堂 | Nhà ăn / しょくどう
+事務所 | Văn phòng / じむしょ
+会議室 | Phòng họp / かいぎしつ
+受付 | Tiếp tân / うけつけ
+部屋 | Căn phòng / へや
+階段 | Cầu thang / かいだん
+会社 | Công ty / かいしゃ
+家 | Nhà / うち
+電話 | Điện thoại / でんわ
+靴 | Giày / くつ
+売り場 | Quầy bán hàng / うりば
+地下 | Tầng hầm / ちか
+階 | Tầng ~ / かい
+百 | Trăm / ひゃく
+千 | Nghìn / せん
+万 | Vạn / まん
+起きます | Thức dậy / おきます
+寝ます | Ngủ / ねます
+働きます | Làm việc / はたらきます
+休みます | Nghỉ ngơi / やすみます
+勉強します | Học tập / べんkyょうします
+終わります | Kết thúc / おわります
+郵便局 | Bưu điện / ゆうびんきょく
+図書館 | Thư viện / としょかん
+美術館 | Bảo tàng mỹ thuật / びじゅつかん
+今 | Bây giờ / いま
+時 | Giờ / じ
+分 | Phút / ふん
+半 | Rưỡi / はん
+何時 | Mấy giờ / なんじ
+午前 | Sáng / ごぜん
+午後 | Chiều / ごご
+朝 | Buổi sáng / あさ
+昼 | Buổi trưa / ひる
+晩 | Buổi tối / ばん
+昨日 | Hôm qua / きのう
+今日 | Hôm nay / きょう
+明日 | Ngày mai / あした
+月曜日 | Thứ hai / げつようび
+火曜日 | Thứ ba / かようび
+水曜日 | Thứ tư / すいようび
+木曜日 | Thứ năm / もくようび
+金曜日 | Thứ sáu / きんようび
+土曜日 | Thứ bảy / どようび
+日曜日 | Chủ nhật / にちようび
+行きます | Đi / いきます
+来ます | Đến / きます
+帰ります | Trở về / かえります
+学校 | Trường học / がっこう
+駅 | Nhà ga / えき
+飛行機 | Máy bay / ひこうき
+船 | Thuyền, tàu / ふね
+地下鉄 | Tàu điện ngầm / ちかてつ
+新幹線 | Tàu siêu tốc / しんかんせん
+自転車 | Xe đạp / じてんしゃ
+友達 | Bạn bè / ともだち
+家族 | Gia đình / かぞく
+先週 | Tuần trước / せんしゅう
+今週 | Tuần này / こんしゅう
+来週 | Tuần sau / らいしゅう
+先月 | Tháng trước / せんげつ
+今月 | Tháng này / こんげつ
+来月 | Tháng sau / らいげつ
+去年 | Năm ngoái / きょねん
+今年 | Năm nay / ことし
+来年 | Năm sau / らいねん
+誕生日 | Sinh nhật / たんじょうび
+食べます | Ăn / たべます
+飲みます | Uống / のみます
+吸います | Hút (thuốc) / すいます
+見ます | Xem / みます
+聞きます | Nghe, hỏi / ききます
+読みます | Đọc / よみます
+書きます | Viết / かきます
+買います | Mua / かいます
+撮ります | Chụp (ảnh) / とります
+会います | Gặp gỡ / あいます
+ご飯 | Cơm, bữa ăn / ごはん
+朝ご飯 | Bữa sáng / あさごはん
+昼ご飯 | Bữa trưa / ひるごはん
+晩ご飯 | Bữa tối / ばんごはん
+卵 | Trứng / たまご
+肉 | Thịt / にく
+野菜 | Rau / やさい
+果物 | Trái cây / くだもの
+水 | Nước / みず
+茶 | Trà / おちゃ
+牛乳 | Sữa bò / ぎゅうにゅう
+酒 | Rượu / おさけ
+映画 | Phim / えいが
+手紙 | Thư / てがみ
+写真 | Ảnh / しゃしん
+店 | Cửa hàng / みせ
+宿題 | Bài tập / しゅくだい
+切ります | Cắt / きります
+送ります | Gửi / おくります
+貸します | Cho mượn / かします
+借ります | Mượn / かります
+教えます | Dạy / おしえます
+習います | Học / ならいます
+手 | Tay / て
+箸 | Đũa / はし
+金 | Tiền / おかね
+切符 | Vé / きっぷ
+父 | Cha (mình) / ちち
+母 | Mẹ (mình) / はは
+お父さん | Cha (người khác) / おとうさん
+お母さん | Mẹ (người khác) / おかあさん
+きれい | Đẹp, sạch sẽ / きれい
+静か | Yên tĩnh / しずか
+賑やか | Náo nhiệt / にぎやか
+有名 | Nổi tiếng / ゆうめい
+親切 | Tốt bụng, thân thiện / しんせつ
+元気 | Khỏe mạnh / げんき
+暇 | Rảnh rỗi / ひま
+便利 | Tiện lợi / べんり
+素敵 | Tuyệt vời, đẹp / すてき
+大きい | To, lớn / おおきい
+小さい | Nhỏ, bé / ちいさい
+新しい | Mới / あたらしい
+古い | Cũ / ふるい
+いい | Tốt / いい
+悪い | Xấu / わるい
+暑い | Nóng (thời tiết) / あつい
+熱い | Nóng (cảm giác) / あつい
+寒い | Lạnh (thời tiết) / さむい
+冷たい | Lạnh (buốt) / つめたい
+難しい | Khó / むずかしい
+易しい | Dễ / やさしい
+高い | Cao, đắt / たかい
+安い | Rẻ / やすい
+低い | Thấp / ひくい
+面白い | Thú vị, hay / おもしろい
+美味しい | Ngon / おいしい
+忙しい | Bận rộn / いそがしい
+楽しい | Vui vẻ / たのしい
+白い | Trắng / しろい
+黒い | Đen / くろい
+赤い | Đỏ / あかい
+青い | Xanh da trời / あおい
+山 | Núi / やま
+町 | Thị trấn, thành phố / まち
+食べ物 | Đồ ăn / たべもの
+飲み物 | Đồ uống / のみもの
+所 | Nơi, chỗ / ところ
+寮 | Ký túc xá / りょう
+生活 | Cuộc sống / せいかつ
+仕事 | Công việc / しごと
+分かります | Hiểu, biết / わかります
+あります | Có (đồ vật) / あります
+好き | Thích / すき
+嫌い | Ghét / きらい
+上手 | Giỏi / じょうず
+下手 | Kém / へた
+料理 | Món ăn, nấu ăn / りょうり
+野球 | Bóng chày / やきゅう
+音楽 | Âm nhạc / おんがく
+歌 | Bài hát / うた
+字 | Chữ / じ
+漢字 | Chữ Hán / かんじ
+時間 | Thời gian / じかん
+用事 | Việc bận / ようじ
+約束 | Cuộc hẹn, lời hứa / やくそく
+主人 | Chồng (mình) / しゅじん
+奥さん | Vợ (người khác) / おくさん
+子ども | Con cái / こども
+少し | Một ít / すこし
+全然 | Hoàn toàn không / ぜんぜん
+早く | Sớm, nhanh / はやく
+男の人 | Người đàn ông / おとこのひと
+女の人 | Người phụ nữ / おんなのひと
+男の子 | Bé trai / おとこのこ
+女の子 | Bé gái / おんなのこ
+犬 | Con chó / いぬ
+猫 | Con mèo / ねこ
+木 | Cây, gỗ / き
+物 | Đồ vật / もの
+電池 | Cục pin / でんち
+箱 | Cái hộp / はこ
+冷蔵庫 | Tủ lạnh / れいぞうこ
+棚 | Kệ, giá / たな
+窓 | Cửa sổ / まど
+公園 | Công viên / こうえん
+喫茶店 | Quán giải khát / きっさてん
+本屋 | Hiệu sách / ほんや
+乗り場 | Bến xe / のりば
+県 | Tỉnh, huyện / けん
+上 | Trên / うえ
+下 | Dưới / した
+前 | Trước / まえ
+後ろ | Sau / うしろ
+右 | Phải / みぎ
+左 | Cái trái / ひだり
+中 | Trong / なか
+外 | Ngoài / そと
+隣 | Bên cạnh / となり
+近く | Gần / ちかく
+間 | Ở giữa / あいだ
+休みます | Nghỉ (làm) / やすみます
+一つ | Một cái / ひとつ
+二つ | Hai cái / ふたつ
+三つ | Ba cái / みっつ
+四つ | Bốn cái / よっつ
+五つ | Năm cái / いつつ
+六つ | Sáu cái / むっつ
+七つ | Bảy cái / ななつ
+八つ | Tám cái / やっつ
+九つ | Chín cái / ここのつ
+十 | Mười cái / とお
+一人 | Một người / ひとり
+二人 | Hai người / ふたり
+台 | Chiếc (máy móc) / だい
+枚 | Tờ, tấm / まい
+回 | Lần / かい
+欲しい | Muốn có / ほしい
+寂しい | Buồn / さびしい
+広い | Rộng / ひろい
+狭い | Hẹp / せまい
+川 | Sông / かわ
+釣り | Câu cá / つり
+週末 | Cuối tuần / しゅうまつ
+つけます | Bật (điện, máy điều hòa) / つけます
+消します | Tắt / けします
+開けます | Mở (cửa, cửa sổ) / あけます
+閉めます | Đóng / しめます
+急ぎます | Vội, gấp / いそぎます
+待ちます | Đợi, chờ / まちます
+持ちます | Mang, cầm / もちます
+取ります | Lấy / とります
+手伝います | Giúp đỡ / てつだいます
+呼びます | Gọi / よびます
+話します | Nói chuyện / はなします
+使います | Dùng, sử dụng / つかいます
+止めます | Dừng, đỗ / とめます
+見せます | Cho xem / みせます
+教えます | Nói, cho biết (địa chỉ) / おしえます
+座ります | Ngồi / すわります
+立ちます | Đứng / たちます
+入ります | Vào (quán giải khát) / はいります [cite: 42, 139]
+出ます | Ra khỏi / でます [cite: 42, 139]
+降ります | Rơi (mưa, tuyết) / ふります
+コピーします | Copy, photo / コピーします
+置きます | Đặt, để / おきます
+作ります | Làm, chế tạo / つくります
+売ります | Bán / うります
+知ります | Biết / しります
+住みます | Sống, cư trú / すみます
+資料 | Tài liệu / しりょう
+時刻表 | Bảng giờ tàu chạy / じこくひょう [cite: 57, 62]
+服 | Quần áo / ふく [cite: 62]
+製品 | Sản phẩm / せいひん
+専門 | Chuyên môn / せんもん [cite: 62]
+歯医者 | Nha sĩ / はいしゃ
+乗ります | Lên (tàu) / のります
+降ります | Xuống (tàu) / おります
+乗り換えます | Chuyển, đổi (tàu) / のりかえます
+浴びます | Tắm (vòi sen) / あびます
+入れます | Cho vào, lồng vào / いれます
+出します | Lấy ra, nộp, gửi / だします [cite: 42, 139]
+下ろします | Rút (tiền) / おろします
+預けます | Gửi, ký gửi / あずけます
+始めます | Bắt đầu / はじめます
+見学します | Tham quan kiến tập / けんがくします
+覚えます | Nhớ / おぼえます
+忘れます | Quên / わすれます
+払います | Trả tiền / はらいます
+返します | Trả lại / かえします
+出かけます | Ra ngoài / でかけます
+脱ぎます | Cởi (quần áo, giày) / ぬぎます
+持っていきます | Mang đi / もっていきます
+持ってきます | Mang đến / もってきます
+心配します | Lo lắng / しんぱいします
+残業します | Làm thêm giờ / ざんぎょうします
+出張します | Đi công tác / しゅっちょうします
+大切 | Quan trọng, quý giá / たいせつ
+危ない | Nguy hiểm / あぶない
+問題 | Vấn đề / もんだい [cite: 57]
+答え | Câu trả lời / こたえ
+禁煙 | Cấm hút thuốc / きんえん
+健康 | Sức khỏe / けんこう
+熱 | Sốt / ねつ
+病気 | Ốm, bệnh / びょうき
+薬 | Thuốc / くすり [cite: 57]
+できます | Có thể / できます
+洗います | Rửa / あらいます
+弾きます | Chơi (nhạc cụ dây) / ひきます
+歌います | Hát / うたいます
+集めます | Sưu tầm, tập hợp / あつめます
+捨てます | Vứt, bỏ đi / すてます [cite: 57]
+換えます | Đổi / かえます [cite: 147]
+運転します | Lái xe / うんてんします
+予約します | Đặt chỗ / よやくします [cite: 57]
+現金 | Tiền mặt / げんきん
+趣味 | Sở thích / しゅみ [cite: 57]
+日記 | Nhật ký / にっき
+お祈り | Việc cầu nguyện / おいのり [cite: 57]
+課長 | Trưởng phòng / かちょう
+部長 | Trưởng bộ phận / ぶちょう
+社長 | Giám đốc / しゃちょう
+動物 | Động vật / どうぶつ
+馬 | Ngựa / うま
+登ります | Leo (núi) / のぼります
+泊まります | Trọ lại / とまります
+掃除します | Dọn vệ sinh / そうじします
+洗濯します | Giặt giũ / せんたくします [cite: 53]
+練習します | Luyện tập / れんしゅうします
+眠い | Buồn ngủ / ねむい
+強い | Mạnh / つよい [cite: 53]
+弱い | Yếu / よわい
+一度 | Một lần / いちど [cite: 53]
+段々 | Dần dần / だんだん [cite: 53]
+つけます | Bật (điện, máy điều hòa) / つけます
+消します | Tắt / けします
+開けます | Mở (cửa, cửa sổ) / あけます
+閉めます | Đóng / しめます
+急ぎます | Vội, gấp / いそぎます
+待ちます | Đợi, chờ / まちます
+持ちます | Mang, cầm / もちます
+取ります | Lấy / とります
+手伝います | Giúp đỡ / てつだいます
+呼びます | Gọi / よびます
+話します | Nói chuyện / はなします
+使います | Dùng, sử dụng / つかいます
+止めます | Dừng, đỗ / とめます
+見せます | Cho xem / みせます
+教えます | Nói, cho biết (địa chỉ) / おしえます
+座ります | Ngồi / すわります
+立ちます | Đứng / たちます
+入ります | Vào (quán giải khát) / はいります [cite: 42, 139]
+出ます | Ra khỏi / でます [cite: 42, 139]
+降ります | Rơi (mưa, tuyết) / ふります
+コピーします | Copy, photo / コピーします
+置きます | Đặt, để / おきます
+作ります | Làm, chế tạo / つくります
+売ります | Bán / うります
+知ります | Biết / しります
+住みます | Sống, cư trú / すみます
+資料 | Tài liệu / しりょう
+時刻表 | Bảng giờ tàu chạy / じこくひょう [cite: 57, 62]
+服 | Quần áo / ふく [cite: 62]
+製品 | Sản phẩm / せいひん
+専門 | Chuyên môn / せんもん [cite: 62]
+歯医者 | Nha sĩ / はいしゃ
+乗ります | Lên (tàu) / のります
+降ります | Xuống (tàu) / おります
+乗り換えます | Chuyển, đổi (tàu) / のりかえます
+浴びます | Tắm (vòi sen) / あびます
+入れます | Cho vào, lồng vào / いれます
+出します | Lấy ra, nộp, gửi / だします [cite: 42, 139]
+下ろします | Rút (tiền) / おろします
+預けます | Gửi, ký gửi / あずけます
+始めます | Bắt đầu / はじめます
+見学します | Tham quan kiến tập / けんがくします
+覚えます | Nhớ / おぼえます
+忘れます | Quên / わすれます
+払います | Trả tiền / はらいます
+返します | Trả lại / かえします
+出かけます | Ra ngoài / でかけます
+脱ぎます | Cởi (quần áo, giày) / ぬぎます
+持っていきます | Mang đi / もっていきます
+持ってきます | Mang đến / もってきます
+心配します | Lo lắng / しんぱいします
+残業します | Làm thêm giờ / ざんぎょうします
+出張します | Đi công tác / しゅっちょうします
+大切 | Quan trọng, quý giá / たいせつ
+危ない | Nguy hiểm / あぶない
+問題 | Vấn đề / もんだい [cite: 57]
+答え | Câu trả lời / こたえ
+禁煙 | Cấm hút thuốc / きんえん
+健康 | Sức khỏe / けんこう
+熱 | Sốt / ねつ
+病気 | Ốm, bệnh / びょうき
+薬 | Thuốc / くすり [cite: 57]
+できます | Có thể / できます
+洗います | Rửa / あらいます
+弾きます | Chơi (nhạc cụ dây) / ひきます
+歌います | Hát / うたいます
+集めます | Sưu tầm, tập hợp / あつめます
+捨てます | Vứt, bỏ đi / すてます [cite: 57]
+換えます | Đổi / かえます [cite: 147]
+運転します | Lái xe / うんてんします
+予約します | Đặt chỗ / よやくします [cite: 57]
+現金 | Tiền mặt / げんきん
+趣味 | Sở thích / しゅみ [cite: 57]
+日記 | Nhật ký / にっき
+お祈り | Việc cầu nguyện / おいのり [cite: 57]
+課長 | Trưởng phòng / かちょう
+部長 | Trưởng bộ phận / ぶちょう
+社長 | Giám đốc / しゃちょう
+動物 | Động vật / どうぶつ
+馬 | Ngựa / うま
+登ります | Leo (núi) / のぼります
+泊まります | Trọ lại / とまります
+掃除します | Dọn vệ sinh / そうじします
+洗濯します | Giặt giũ / せんたくします [cite: 53]
+練習します | Luyện tập / れんしゅうします
+眠い | Buồn ngủ / ねむい
+強い | Mạnh / つよい [cite: 53]
+弱い | Yếu / よわい
+一度 | Một lần / いちど [cite: 53]
+段々 | Dần dần / だんだん [cite: 53]
+酸っぱい | Chua / すっぱい
+苦い | Đắng / にがい
+塩辛い | Mặn / しおからい
+薄い | Nhạt (vị), mỏng, nhạt (màu) / うすい
+濃い | Đậm (vị), dày, đậm (màu) / こい
+脂っこい | Béo, ngấy mỡ / あぶらっこい
+渋い | Chát / しぶい
+香ばしい | Thơm nức (mùi đồ nướng) / こうばしい
+生臭い | Tanh / なまぐさい
+硬い | Cứng / かたい
+柔らかい | Mềm / やわらかい
+厳しい | Nghiêm khắc / きびしい
+優しい | Hiền lành, dịu dàng / やさしい
+真面目 | Nghiêm túc, cần cù / まじめ
+我がまま | Ích kỷ / わがまま
+素直 | Ngoan ngoãn, chất phác / すなお
+意地悪 | Xấu bụng, hẹp hòi / いじわる
+頑固 | Bướng bỉnh, ngoan cố / がんこ
+頭がいい | Thông minh / あたまがいい
+頭が悪い | Ngu ngốc / あたまがわるい
+鼻 | Mũi / はな
+口 | Miệng / くち
+耳 | Tai / みみ
+目 | Mắt / め
+顔 | Mặt / かお
+首 | Cổ / くび
+肩 | Vai / かた
+胸 | Ngực / むね
+背中 | Lưng / せなか
+お腹 | Bụng / おなか
+腰 | Eo, hông / こし
+腕 | Cánh tay / うで
+足 | Chân / あし
+指 | Ngón tay / ゆび
+喉 | Họng / のど
+骨 | Xương / ほね
+血 | Máu / ち
+体 | Cơ thể / からだ
+心 | Trái tim, tâm hồn / こころ
+天井 | Trần nhà / てんじょう
+壁 | Tường / かべ
+床 | Sàn nhà / ゆか
+鏡 | Gương / かがみ
+引き出し | Ngăn kéo / ひきだし
+暖房 | Lò sưởi, chế độ sưởi / だんぼう
+冷房 | Máy lạnh, chế độ làm mát / れいぼう
+電子レンジ | Lò vi sóng / でんしレンジ
+炊飯器 | Nồi cơm điện / すいはんき
+掃除機 | Máy hút bụi / そうじき
+洗濯機 | Máy giặt / せんたくき
+扇風機 | Quạt điện / せんぷうき
+ドライヤー | Máy sấy tóc / ドライヤー
+懐中電灯 | Đèn pin / かいちゅうでんとう
+石鹸 | Xà phòng / せっけん
+歯ブラシ | Bàn chải đánh răng / はブラシ
+タオル | Khăn tắm / タオル
+金髪 | Tóc vàng / きんぱつ
+灰色の | Màu xám / はいいろの
+桃色の | Màu hồng / ももいろの
+紫色の | Màu tím / むらさきいろの
+オレンジ色 | Màu cam / オレンジいろ
+緑色の | Màu xanh lá cây / みどりいろの
+銀色 | Màu bạc / ぎんいろ
+金色 | Màu vàng kim / きんいろ
+透明 | Trong suốt / とうめい
+空 | Bầu trời / そら
+太陽 | Mặt trời / たいよう
+月 | Mặt trăng / つき
+星 | Ngôi sao / ほし
+風 | Gió / かぜ
+雲 | Mây / くも
+地震 | Động đất / じしん
+津波 | Sóng thần / つなみ
+火事 | Hỏa hoạn / かじ
+台風 | Bão / たいふう
+洪水 | Lũ lụt / こうずい
+祖父 | Ông (mình) / そふ
+祖母 | Bà (mình) / そぼ
+孫 | Cháu / まご
+叔父 | Chú, cậu (mình) / おじ
+叔母 | Cô, dì (mình) / おば
+従兄弟 | Anh em họ / いとこ
+甥 | Cháu trai / おい
+姪 | Cháu gái / めい
+独身 | Độc thân / どくしん
+婚約 | Hôn ước / こんやく
+離婚 | Ly hôn / りこん
+警察署 | Đồn cảnh sát / けいさつしょ
+消防署 | Trạm cứu hỏa / しょうぼうしょ
+市役所 | Tòa thị chính / しやくしょ
+大使館 | Đại sứ quán / たいしかん
+入国管理局 | Cục quản lý xuất nhập cảnh / にゅうこくかんりきょく
+神社 | Đền thờ thần đạo / じんじゃ
+お寺 | Chùa / おてら
+教会 | Nhà thờ / きょうかい
+幸せ | Hạnh phúc / しあわせ
+悲しい | Buồn bã / かなしい
+怖い | Sợ hãi / こわい
+恥ずかしい | Xấu hổ / はずかしい
+びっくりする | Ngạc nhiên / びっくりする
+怒る | Tức giận / おこる
+安心する | Yên tâm / あんしんする
+がっかりする | Thất vọng / がっかりする
+緊張する | Căng thẳng / きんちょうする
+羨ましい | Ghen tị / うらやましい
+懐かしい | Hoài niệm (nhớ nhung) / なつかしい
+危険 | Nguy hiểm / きけん
+安全 | An toàn / あんぜん
+自由 | Tự do / じゆう
+急 | Gấp, đột ngột / きゅう
+無理 | Quá sức, không thể / むり
+無駄 | Lãng phí / むだ
+複雑 | Phức tạp / ふくざつ
+単純 | Đơn giản / たんじゅん
+不思議 | Kỳ lạ, huyền bí / ふしぎ
+丁寧 | Lịch sự / ていねい
+盛ん | Phổ biến, thịnh hành / さかん
+特別 | Đặc biệt / とくべつ
+書類 | Hồ sơ, tài liệu / しょりゅう
+ハンコ | Con dấu / ハンコ
+名刺入れ | Hộp đựng danh thiếp / めいしいれ
+文房具 | Văn phòng phẩm / ぶんぼうぐ
+封筒 | Bao thư / ふうとう
+電卓 | Máy tính cầm tay (để tính toán) / でんたく
+ホッチキス | Cái dập ghim / ホッチキス
+画面 | Màn hình / がめん
+キーボード | Bàn phím / キーボード
+マウス | Chuột máy tính / マウス
+検索する | Tìm kiếm (search) / けんさくする
+保存する | Lưu trữ (save) / ほぞんする
+削除する | Xóa (delete) / さくじょする
+パスワード | Mật khẩu / パスワード
+接続 | Kết nối / せつぞく
+交差点 | Ngã tư / こうさてん
+信号 | Đèn giao thông / しんごう
+踏切 | Nơi tàu hỏa chạy ngang qua / ふみきり
+歩道 | Đường đi bộ / ほどう
+車道 | Đường cho xe chạy / しゃどう
+角 | Góc đường / かど
+橋 | Cây cầu / はし
+高速道路 | Đường cao tốc / こうそくどうろ
+駐車場 | Bãi đỗ xe / ちゅうしゃじょう
+映画館 | Rạp chiếu phim / えいがかん
+遊園地 | Khu vui chơi giải trí / ゆうえんち
+動物園 | Vườn bách thú / どうぶつえん
+植物園 | Vườn bách thảo / しょくぶつえん
+水族館 | Thủy cung / すいぞくかん
+美術館 | Bảo tàng mỹ thuật / びじゅつかん
+博物館 | Bảo tàng / はくぶつかん
+図書館 | Thư viện / としょかん
+体育館 | Nhà thi đấu thể thao / たいいくかん
+快晴 | Trời nắng chang chang / かいせい
+曇り | Trời nhiều mây / くもり
+雷 | Sấm sét / かみなり
+霧 | Sương mù / きり
+虹 | Cầu vồng / にじ
+湿気 | Độ ẩm / しっけ
+乾燥 | Khô hanh / かんそう
+予報 | Dự báo / よほう
+大雨 | Mưa lớn / おおあめ
+大雪 | Tuyết rơi dày / おおゆき
+春 | Mùa xuân / はる
+夏 | Mùa hè / なつ
+秋 | Mùa thu / あき
+冬 | Mùa đông / ふy
+乾く | Khô / かわく
+濡れる | Ướt / ぬれる
+混む | Đông đúc / こむ
+空く | Vắng vẻ / すく
+間に合う | Kịp giờ / まにあう
+遅れる | Trễ giờ / おくれる
+捕まえる | Bắt giữ / つかまえる
+逃げる | Chạy trốn / にげる
+見つける | Tìm thấy / みつける
+無くす | Làm mất / なくす
+増える | Tăng lên / ふえる
+減る | Giảm đi / へる
+太る | Béo lên / ふとる
+痩せる | Gầy đi / やせる
+似合う | Hợp (quần áo) / にあう
+脱ぐ | Cởi ra / ぬぐ
+履く | Đi (giày), mặc (quần) / はく
+被る | Đội (mũ) / かぶる
+掛ける | Đeo (kính) / かける
+締める | Thắt (cà vạt) / しめる
+磨く | Đánh (răng) / みがきます
+洗う | Rửa / あらいます
+拭く | Lau chùi / ふきます
+壊す | Làm hỏng / こわす
+直す | Sửa chữa / なおす
+拾う | Nhặt lên / ひろう
+捨てる | Vứt đi / すてる
+お腹が空く | Đói bụng / おなかがすく [cite: 32]
+お腹がいっぱい | No bụng / おなかがいっぱい [cite: 32]
+喉が渇く | Khát nước / のどがかわく [cite: 32]
+気分がいい | Thấy khỏe, tinh thần tốt / きぶんがいい
+気分が悪い | Thấy mệt, tinh thần tệ / きぶんがわるい
+風邪をひく | Bị cảm / かぜをひく
+怪我をする | Bị thương / けがをする
+咳が出る | Bị ho / せきがでる
+無理をする | Làm việc quá sức / むりをする
+ダイエットをする | Ăn kiêng / ダイエットをする
+お見舞い | Đi thăm bệnh / おみまい
+注文する | Đặt món, gọi món / ちゅうもんする [cite: 37]
+少々 | Một chút (lịch sự) / しょうしょう [cite: 37]
+別々に | Riêng biệt, tính riêng / べつべつに [cite: 37]
+混ぜる | Trộn, hỗn hợp / まぜる
+煮る | Ninh, hầm / にる
+焼く | Nướng / やく
+揚げる | Chiên, rán / あげる
+茹でる | Luộc / ゆでる
+皮をむく | Gọt vỏ / かわをむく
+味見をする | Nếm thử / あじみをする
+よく | Thường xuyên, rõ / よく [cite: 53]
+だんだん | Dần dần / だんだん [cite: 53]
+もちろん | Tất nhiên / もchろん [cite: 53]
+一度も | Chưa một lần nào / いちども [cite: 53]
+特に | Đặc biệt là / とくに [cite: 62]
+絶対 | Tuyệt đối / ぜったい
+必ず | Nhất định (phải làm) / かならず
+多分 | Có lẽ / たぶん
+もし | Nếu / もし
+はっきり | Rõ ràng / はっきり
+うっかり | Ngơ ngác, lơ đễnh / うっかり
+がっかり | Thất vọng / がっかり
+やっぱり | Quả nhiên là / やっぱり
+道に迷う | Lạc đường / みちにまよう
+間に合う | Kịp giờ / まにあう
+遅れる | Trễ giờ / おくれる
+連絡する | Liên lạc / れんらくする
+相談する | Bàn bạc, thảo luận / そうだんする
+準備する | Chuẩn bị / じゅんびする [cite: 42]
+片付ける | Dọn dẹp / かたづける
+汚す | Làm bẩn / よごす
+壊れる | Bị hỏng / こわれる
+直す | Sửa chữa / なおす
+捕まえる | Bắt (tội phạm, trộm) / つかまえる
+見つかる | Tìm thấy / みつかる
+助ける | Giúp đỡ, cứu / たすける
+褒める | Khen ngợi / ほめる
+叱る | Mắng mỏ / しかる
+誘う | Mời mọc, rủ rê / さそう
+招待する | Mời (trang trọng) / しょうたいする
+頼む | Nhờ vả / たのむ
+注意する | Chú ý / ちゅういする
+信じる | Tin tưởng / しんじる
+断る | Từ chối / ことわる
+嘘をつく | Nói dối / うそをつく
+震える | Run rẩy / ふるえる
+驚く | Ngạc nhiên / おどろく
+笑う | Cười / わらう
+泣く | Khóc / なく
+怒る | Tức giận / おこる
+喜ぶ | Vui mừng / よろこぶ
+北 | Bắc / きた
+南 | Nam / みなみ
+東 | Đông / ひがし
+西 | Tây / にし
+真ん中 | Ở chính giữa / まんなか
+隅 | Góc (phòng, túi) / すみ
+端 | Rìa, mép / はし
+半分 | Một nửa / はんぶん
+空気 | Không khí / くうき
+太陽 | Mặt trời / たいよう
+月 | Mặt trăng / つき
+星 | Ngôi sao / ほし
+空 | Bầu trời / そら
+海 | Biển / うみ
+世界 | Thế giới / せかい
+火 | Lửa / ひ
+光 | Ánh sáng / ひかり
+音 | Âm thanh / おと
+声 | Tiếng (người, động vật) / こえ
+匂い | Mùi / におi
+授業 | Tiết học, giờ học / じゅぎょう
+講義 | Bài giảng / こうぎ
+作文 | Bài văn, đoạn văn / さくぶん
+文章 | Văn bản, bài viết / ぶんしょう
+辞書 | Từ điển / じしょ
+意味 | Ý nghĩa / いみ 
+言葉 | Từ vựng, lời nói / ことば
+教科書 | Sách giáo khoa / きょうかしょ
+問題 | Vấn đề, câu hỏi (bài tập) / もんだい [cite: 57]
+答え | Câu trả lời / こたえ
+易しい | Dễ / やさしい 
+難しい | Khó / むずかしい 
+強い | Mạnh / つよい [cite: 53]
+弱い | Yếu / よわい
+暗い | Tối / くらい
+明るい | Sáng / あかるい
+重い | Nặng / おもい 
+軽い | Nhẹ / かるい 
+狭い | Hẹp / せまい 
+広い | Rộng / ひろい 
+高い | Cao, đắt / たかい [cite: 62, 67]
+安い | Rẻ / やすい 
+大体 | Đại khái / だいたい [cite: 77]
+全部 | Toàn bộ / ぜんぶ [cite: 136]
+半分 | Một nửa / はんぶん
+大抵 | Thông thường / たいてい
+時々 | Thỉnh thoảng / ときどき [cite: 77]
+全然 | Hoàn toàn không (đi với phủ định) / ぜんぜん [cite: 77]
+初めて | Lần đầu tiên / はじめて [cite: 77]
+もう一度 | Một lần nữa / もういちど
+ゆっくり | Thong thả, chậm rãi / ゆっくり
+そろそろ | Sắp sửa / そろそろ [cite: 77]
+一生懸命 | Hết sức mình / いっしょうけんめい
+大丈夫 | Không sao, ổn / だいじょうぶ
+残念 | Đáng tiếc / ざんねん [cite: 77]
+本当 | Sự thật / ほんとう
+一 | Một / いち
+二 | Hai / に
+三 | Ba / さん
+四 | Bốn / し / よん
+五 | Năm / ご
+六 | Sáu / ろく
+七 | Bảy / しち / なな
+八 | Tám / はち
+九 | Chín / きゅう / く
+十 | Mười / じゅう
+二十 | Hai mươi / にじゅう
+二十歳 | Hai mươi tuổi (đặc biệt) / はたち
+一人 | Một người / ひとり
+二人 | Hai người / ふたり
+三人 | Ba người / さんにん
+四人 | Bốn người (đặc biệt) / よにん
+一つ | Một cái / ひとつ
+二つ | Hai cái / ふたつ
+三つ | Ba cái / みっつ
+四つ | Bốn cái / よっつ
+五つ | Năm cái / いつつ
+六つ | Sáu cái / むっつ
+七つ | Bảy cái / ななつ
+八つ | Tám cái / やっつ
+九つ | Chín cái / ここのつ
+十 | Mười cái / とお
+一日 | Ngày mồng 1 / ついたち
+二日 | Ngày mồng 2 / ふつか
+三日 | Ngày mồng 3 / みっか
+四日 | Ngày mồng 4 / よっka
+五日 | Ngày mồng 5 / いつか
+六日 | Ngày mồng 6 / むいか
+七日 | Ngày mồng 7 / なのか
+八日 | Ngày mồng 8 / ようか
+九日 | Ngày mồng 9 / ここのか
+十日 | Ngày mồng 10 / とおか
+十四日 | Ngày mười bốn / じゅうよっか
+二十日 | Ngày hai mươi / はつか
+二十四日 | Ngày hai mươi tư / にじゅうよっか
+何 | Cái gì / なに / なん
+誰 | Ai / だれ
+何時 | Mấy giờ / なんじ
+何曜日 | Thứ mấy / なんようび
+何月 | Tháng mấy / なんがつ
+何日 | Ngày mấy / なんにち
+いくら | Bao nhiêu tiền / いくら
+いくつ | Bao nhiêu cái / いくつ
+どこ | Ở đâu / どこ
+どちら | Phía nào / どちら
+どう | Như thế nào / どう
+どんな | Như thế nào (tính chất) / どんな
+どうして | Tại sao / どうして
+いつ | Khi nào / いつ
+誰の | Của ai / だれの
+とても | Rất / とても
+あまり | Không... lắm (đi với phủ định) / あまり
+少し | Một ít / すこし
+たくさん | Nhiều / たくさん
+一番 | Nhất / いちばん
+もっと | Hơn nữa / もっと
+ちょうど | Vừa đúng, vừa khít / ちょうど
+だいたい | Đại khái / だいたい
+多分 | Có lẽ / たぶん
+きっと | Chắc chắn / きっと
+ずっと | Suốt, hơn hẳn / ずっと
+始めて | Lần đầu tiên / はじめて
+もう一度 | Lại một lần nữa / もういちど
+すぐ | Ngay lập tức / すぐ
+また | Lại, hẹn gặp lại / また
+鉛筆 | Bút chì / えんぴつ
+消しゴム | Cục tẩy / けしゴム
+定規 | Thước kẻ / じょうぎ
+筆箱 | Hộp bút / ふでばこ
+鋏 | Cái kéo / はさみ
+パンチ | Cái đục lỗ / パンチ
+ホッチキス | Cái dập ghim / ホッチキス
+セロテープ | Băng dính / セロテープ
+書類 | Tài liệu / しょるい
+名刺 | Danh thiếp / めいし
+切手 | Tem thư / きって
+封筒 | Bao thư / ふうとう
+ポスト | Hòm thư / ポスト
+石鹸 | Xà phòng / せっけん
+歯ブラシ | Bàn chải đánh răng / はブラシ
+鏡 | Gương / かがみ
+ハンカチ | Khăn tay / ハンカチ
+お土産 | Quà lưu niệm / おみやげ
+指輪 | Nhẫn / ゆびわ
+腕時計 | Đồng hồ đeo tay / うでどけい
+手袋 | Găng tay / てぶくろ
+下着 | Đồ lót / したぎ
+服 | Quần áo / ふく
+洋服 | Quần áo kiểu Tây / ようふく
+和服 | Quần áo kiểu Nhật / わふく
+コート | Áo khoác / コート
+セーター | Áo len / セーター
+水着 | Đồ bơi / みずぎ
+道 | Con đường / みち
+交差点 | Ngã tư / こうさてん
+信号 | Đèn giao thông / しんごう
+角 | Góc đường / かど
+橋 | Cây cầu / はし
+坂 | Cái dốc / さか
+港 | Cảng / みなと
+村 | Ngôi làng / むら
+島 | Hòn đảo / しま
+池 | Cái ao / いけ
+林 | Khu rừng nhỏ / はやし
+森 | Rừng già / もり
+太陽 | Mặt trời / たいよう
+月 | Mặt trăng / つき
+空 | Bầu trời / そら
+風 | Gió / かぜ
+波 | Sóng / なみ
+星 | Ngôi sao / ほし
+光る | Chiếu sáng / ひかる
+曇る | Nhiều mây / くもる
+晴れる | Nắng, quang đãng / はれる
+降る | Rơi (mưa, tuyết) / ふる
+吹く | Thổi (gió) / ふく
+咲く | Nở (hoa) / さく
+消える | Bị tắt / きえる
+壊れる | Bị hỏng / こわれる
+割れる | Bị vỡ / われる
+折れる | Bị gãy / おれる
+汚れる | Bị bẩn / よごれる
+外れる | Bị tuột, rời ra / はずれる
+止まる | Dừng lại / とまる
+掛かる | Tốn (thời gian, tiền bạc) / かかる
+大変 | Vất vả / たいへん
+残念 | Đáng tiếc / ざんねん
+心配 | Lo lắng / しんぱい
+無理 | Không thể, quá sức / むり
+上手 | Giỏi / じょうず
+下手 | Kém / へた
+一生懸命 | Hết sức mình / いっしょうけんめい
+本当 | Sự thật / ほんとう

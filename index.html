@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Memory Lab — Futuristic Learning</title>
+
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22url(%23grad)%22/><defs><linearGradient id=%22grad%22 x1=%220%25%22 y1=%220%25%22 x2=%22100%25%22 y2=%22100%25%22><stop offset=%220%25%22 style=%22stop-color:%236366f1;stop-opacity:1%22 /><stop offset=%22100%25%22 style=%22stop-color:%23a855f7;stop-opacity:1%22 /></linearGradient></defs><path d=%22M58 15L30 55H48L42 85L70 45H52L58 15Z%22 fill=%22white%22/></svg>">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800;900&family=Noto+Sans+JP:wght@400;500;700;900&family=Noto+Sans+KR:wght@400;500;700;900&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+    
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/hanzi-writer@3/dist/hanzi-writer.min.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<div class="app-container">
+
+    <!-- HEADER -->
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="#" class="logo-group">
+                <div class="logo-mark"><i data-lucide="zap"></i></div>
+                <div class="logo-type">
+                    <span class="brand-name">Memory Lab</span>
+                </div>
+            </a>
+
+            <nav class="header-nav">
+                <button class="nav-link" id="btnDocs" title="Tài liệu">
+                    <i data-lucide="book-open"></i>
+                    <span>TÀI LIỆU</span>
+                </button>
+                <button class="nav-link" id="btnChooseSet" title="Học phần">
+                    <i data-lucide="layers"></i>
+                    <span>HỌC PHẦN</span>
+                </button>
+                <button class="nav-link" id="btnDictionary" title="Từ điển">
+                    <i data-lucide="book"></i>
+                    <span>TỪ ĐIỂN</span>
+                </button>
+                <button class="nav-link" id="btnSearch" title="Tìm kiếm">
+                    <i data-lucide="search"></i>
+                    <span>TÌM KIẾM</span>
+                </button>
+                <button class="nav-link" id="btnVoiceConfig" title="Giọng đọc">
+                    <i data-lucide="mic"></i>
+                    <span>GIỌNG ĐỌC</span>
+                </button>
+                <button class="nav-link btn-theme" id="btnThemeToggle">
+                    <i data-lucide="moon"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+
+        <!-- LEARNING EXPERIENCE -->
+        <section class="learning-stage">
+            <div id="currentSetNameLabel" style="text-align:center; font-size:11px; font-weight:900; color:var(--text-muted); text-transform:uppercase; margin-bottom:12px; letter-spacing:2px; opacity:0.6;"></div>
+            
+            <div class="flashcard-container">
+                <div class="flashcard" id="flashcard">
+                    <!-- FRONT -->
+                    <div class="card-face front">
+                        <div class="card-top-actions">
+                            <div class="mastery-group">
+                                <button class="mastery-mini struggle" id="btnStruggle" title="Chưa thuộc">
+                                    <i data-lucide="frown"></i>
+                                </button>
+                                <button class="mastery-mini mastered" id="btnMastered" title="Đã thuộc">
+                                    <i data-lucide="smile"></i>
+                                </button>
+                            </div>
+                            <button class="tts-btn" id="speakFront"><i data-lucide="volume-2"></i></button>
+                        </div>
+                        <div class="card-content">
+                            <div id="frontMain">Memory Lab</div>
+                            <div id="frontSub">Sẵn sàng để bắt đầu chưa?</div>
+                        </div>
+                        <div class="card-bottom-actions">
+                            <button class="tts-btn transparent btnReset" title="Quay về đầu">
+                                <i data-lucide="rotate-ccw"></i>
+                            </button>
+                            <button id="btnFullscreen" class="tts-btn transparent" title="Toàn màn hình">
+                                <i data-lucide="maximize"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- BACK -->
+                    <div class="card-face back">
+                        <div class="card-top-actions">
+                            <div class="mastery-group">
+                                <button class="mastery-mini struggle" id="btnStruggleBack" title="Chưa thuộc">
+                                    <i data-lucide="frown"></i>
+                                </button>
+                                <button class="mastery-mini mastered" id="btnMasteredBack" title="Đã thuộc">
+                                    <i data-lucide="smile"></i>
+                                </button>
+                            </div>
+                            <button class="tts-btn" id="speakBack"><i data-lucide="volume-2"></i></button>
+                        </div>
+                        <div class="card-content">
+                            <div id="backMain"></div>
+                            <div id="backExample"></div>
+                            <div id="backExplain"></div>
+                        </div>
+                        <div class="card-bottom-actions">
+                            <button class="tts-btn transparent btnReset" title="Quay về đầu">
+                                <i data-lucide="rotate-ccw"></i>
+                            </button>
+                            <button id="btnFullscreenBack" class="tts-btn transparent" title="Toàn màn hình">
+                                <i data-lucide="maximize"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- PROGRESS & CONTROLS UI -->
+            <div class="card-controls-footer">
+                <div class="progress-text" id="progressText">0 / 0 THẺ</div>
+                
+                <div class="navigation-group">
+                    <button class="stage-nav-btn" id="btnPrev" title="Trước">
+                        <i data-lucide="chevron-left"></i>
+                    </button>
+                    
+                    <div class="central-controls">
+                        <button class="mini-control-btn big-control" id="btnRandom" title="Xáo trộn">
+                            <i data-lucide="shuffle"></i>
+                        </button>
+                        <button class="mini-control-btn big-control" id="btnAuto" title="Tự động">
+                            <i data-lucide="play"></i>
+                        </button>
+                    </div>
+
+                    <button class="stage-nav-btn" id="btnNext" title="Sau">
+                        <i data-lucide="chevron-right"></i>
+                    </button>
+                </div>
+
+                <div class="auto-settings-inline" id="timeBox">
+                    <div class="timer-item">
+                        <label>Mặt 1:</label>
+                        <input type="number" id="frontSeconds" value="3" min="0.5" step="0.5">
+                        <span>s</span>
+                    </div>
+                    <div class="timer-item">
+                        <label>Mặt 2:</label>
+                        <input type="number" id="backSeconds" value="2" min="0.5" step="0.5">
+                        <span>s</span>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- DASHBOARD -->
+        <div class="dashboard-grid">
+            
+            <div class="dashboard-panel">
+                <div class="panel-title">
+                    <i data-lucide="library"></i>
+                    <span>QUẢN LÝ HỌC PHẦN</span>
+                </div>
+
+                <button class="btn-hero" id="btnNewSet" style="width:100%; margin-bottom:15px; background:var(--accent); color:white;">
+                    <i data-lucide="plus-circle"></i> TẠO HỌC PHẦN MỚI
+                </button>
+
+                <div class="deck-list-container" id="deckList">
+                    <!-- Loaded via Script -->
+                </div>
+
+                <div class="management-actions" style="margin-top:auto; display:grid; gap:16px;">
+                    <div style="flex: 1; display: flex; align-items: center;">
+                        <button id="btnSaveSet" style="background:none; border:none; cursor:pointer; color:var(--text-muted); display:flex; align-items:center; gap:6px; font-size:12px; font-weight:bold; padding:8px 0;">
+                            <i data-lucide="save" style="width:16px;"></i> LƯU THAY ĐỔI
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dashboard-panel" style="position: relative;">
+                <div class="panel-title">
+                    <i data-lucide="terminal"></i>
+                    <span>NHẬP NHANH DỮ LIỆU</span>
+                    <button id="btnImportFileIcon" title="Nhập từ file" style="margin-left: auto; background: none; border: none; cursor: pointer; color: var(--accent); display: flex; align-items: center; justify-content: center;">
+                        <i data-lucide="file-up" style="width: 32px; height: 32px;"></i>
+                        <input type="file" id="fileInput" accept=".txt,.docx" style="display:none;">
+                    </button>
+                </div>
+                <label style="font-size:12px; display:block;">Định dạng: Mặt trước / Phụ | Mặt sau / Ví dụ / Giải thích</label>
+                <textarea id="bulkInput" placeholder="Ví dụ: Hello | Xin chào / Lời chào khi gặp mặt"></textarea>
+                <button class="btn-hero" id="btnAddCard" style="width:100%; border:none; margin-top: 20px;">NHẬP & BẮT ĐẦU HỌC NGAY</button>
+            </div>
+        </div>
+
+    </main>
+
+</div>
+
+<!-- MODALS -->
+<div class="modal-overlay" id="docOverlay">
+    <div class="modal-content">
+        <div class="panel-title">
+            <i data-lucide="book-open"></i> <span>Tài liệu (Hệ thống)</span>
+            <button id="btnCloseDocs" style="margin-left:auto; background:none; border:none; font-size:24px; color:var(--text-muted); cursor:pointer;">&times;</button>
+        </div>
+        <div style="display:flex; gap:10px; margin-bottom:15px;">
+            <div class="search-input-group" style="flex:1;">
+                <input type="text" id="docSearchInput" placeholder="Tìm tài liệu..." style="width:100%; padding:12px; border-radius:10px; border:2px solid var(--accent); background:var(--bg-app); color:inherit; outline:none; font-size:14px;">
+            </div>
+            <button id="btnUploadDoc" class="nav-link" title="Tải lên tài liệu mới" style="padding:0 15px; background:var(--accent); color:white; border:none;">
+                <i data-lucide="upload"></i>
+                <input type="file" id="docFileInput" accept=".txt" style="display:none;">
+            </button>
+        </div>
+        <div id="docList" class="deck-list-container" style="max-height: 400px; overflow-y: auto; padding-right: 5px;">
+            <!-- Documents list -->
+        </div>
+    </div>
+</div>
+
+<!-- FLOATING LOOKUP BUTTON -->
+<button id="floatingLookupBtn" style="display:none; position:absolute; z-index:9999; width:36px; height:36px; border-radius:50%; background:var(--accent); color:white; border:none; cursor:pointer; box-shadow:0 4px 12px rgba(0,0,0,0.2); align-items:center; justify-content:center;">
+    <i data-lucide="search" style="width:18px; height:18px;"></i>
+</button>
+
+<!-- DICTIONARY POPUP -->
+<div class="modal-overlay" id="dictOverlay">
+    <div class="modal-content" style="max-width: 500px;">
+        <div class="panel-title">
+            <i data-lucide="book"></i> <span>Từ điển Nhật - Việt (AI)</span>
+            <button id="btnCloseDict" style="margin-left:auto; background:none; border:none; font-size:24px; color:var(--text-muted); cursor:pointer;">&times;</button>
+        </div>
+        
+        <div class="search-input-group" style="margin-bottom: 20px; display: flex; gap: 10px;">
+            <input type="text" id="dictKeywordInput" placeholder="Nhập từ cần tra..." style="flex:1; padding:12px; border-radius:10px; border:2px solid var(--accent); background:var(--bg-app); color:inherit; outline:none; font-size:14px;">
+            <button class="btn-hero" id="btnDoLookup" style="width:auto; margin:0; padding:0 20px;">TRA</button>
+        </div>
+
+        <div id="dictContent" style="max-height: 50vh; overflow-y: auto; padding-right: 5px;">
+            <div id="dictLoading" style="display:none; text-align:center; padding:30px;">
+                <div class="loader" style="margin: 0 auto 15px; border: 3px solid var(--border); border-top: 3px solid var(--accent); border-radius: 50%; width: 30px; height: 30px; animation: spin 1s linear infinite;"></div>
+                <p>AI đang phân tích từ vựng...</p>
+            </div>
+            <div id="dictResult">
+                <div style="text-align:center; padding:40px; color:var(--text-muted);">
+                    <i data-lucide="info" style="width:40px; height:40px; margin-bottom:10px; opacity:0.3;"></i>
+                    <p>Bôi đen văn bản trên thẻ hoặc nhập từ để tra cứu chi tiết.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal-overlay" id="searchOverlay">
+    <div class="modal-content" style="max-width: 600px; height: 80vh; display: flex; flex-direction: column;">
+        <div class="panel-title">
+            <i data-lucide="search"></i> <span>Tìm kiếm thẻ</span>
+            <button id="btnCloseSearch" style="margin-left:auto; background:none; border:none; font-size:24px; color:var(--text-muted); cursor:pointer;">&times;</button>
+        </div>
+        
+        <div class="search-input-group" style="margin-bottom: 20px; display: flex; gap: 10px; flex-direction: column;">
+            <input type="text" id="searchInput" placeholder="Nhập từ khóa cần tìm..." style="width:100%; padding:15px; border-radius:12px; border:2px solid var(--accent); background:var(--bg-app); color:inherit; font-weight:bold; outline:none;">
+            <div style="display: flex; gap: 8px;">
+                <button class="filter-btn active" data-filter="all" style="flex:1; padding:8px; border-radius:8px; border:1px solid var(--border); background:var(--bg-card); cursor:pointer; font-size:12px; font-weight:bold;">TẤT CẢ</button>
+                <button class="filter-btn" data-filter="set" style="flex:1; padding:8px; border-radius:8px; border:1px solid var(--border); background:var(--bg-card); cursor:pointer; font-size:12px; font-weight:bold;">HỌC PHẦN</button>
+                <button class="filter-btn" data-filter="word" style="flex:1; padding:8px; border-radius:8px; border:1px solid var(--border); background:var(--bg-card); cursor:pointer; font-size:12px; font-weight:bold;">TÌM TỪ</button>
+                <button class="filter-btn" data-filter="meaning" style="flex:1; padding:8px; border-radius:8px; border:1px solid var(--border); background:var(--bg-card); cursor:pointer; font-size:12px; font-weight:bold;">TÌM NGHĨA</button>
+            </div>
+        </div>
+
+        <div id="searchResults" style="flex:1; overflow-y:auto; display:grid; gap:10px;">
+            <!-- Result list -->
+        </div>
+
+        <div id="searchDetail" style="display:none; flex:1; overflow-y:auto; padding:20px; background:var(--bg-app); border-radius:16px;">
+            <button id="btnBackToSearch" style="background:var(--accent); color:white; border:none; padding:8px 16px; border-radius:8px; margin-bottom:15px; font-weight:bold; cursor:pointer; display:flex; align-items:center; gap:8px;">
+                <i data-lucide="arrow-left" style="width:16px;"></i> Quay lại
+            </button>
+            <div id="searchDetailContent"></div>
+        </div>
+    </div>
+</div>
+
+<div class="modal-overlay" id="popupOverlay">
+    <div class="modal-content">
+        <div class="panel-title">
+            <i data-lucide="library"></i> <span>Chọn Học Phần</span>
+            <button id="btnClosePopup" style="margin-left:auto; background:none; border:none; font-size:24px; color:var(--text-muted); cursor:pointer;">&times;</button>
+        </div>
+        <div class="search-input-group" style="margin-bottom: 15px;">
+            <input type="text" id="popupSearchInput" placeholder="Tìm tên học phần..." style="width:100%; padding:12px; border-radius:10px; border:2px solid var(--accent); background:var(--bg-app); color:inherit; outline:none; font-size:14px;">
+        </div>
+        <div id="popupSetList" class="deck-list" style="max-height: 350px; overflow-y: auto; padding-right: 5px;"></div>
+        <button class="btn-hero" id="btnNewSetPopup" style="width:100%; margin-top:20px; background:var(--accent); color:white;">
+            <i data-lucide="plus-circle"></i> TẠO HỌC PHẦN MỚI
+        </button>
+    </div>
+</div>
+
+<div class="modal-overlay" id="voiceOverlay">
+    <div class="modal-content">
+        <div class="panel-title">
+            <i data-lucide="mic"></i> <span>Cấu hình giọng đọc</span>
+            <button id="btnCloseVoice" style="margin-left:auto; background:none; border:none; font-size:24px; color:var(--text-muted); cursor:pointer;">&times;</button>
+        </div>
+        <div style="display:grid; gap:20px;">
+            <div>
+                <label style="font-size:12px; font-weight:bold; margin-bottom:8px; display:block;">Giọng mặt trước</label>
+                <select id="voiceFront" style="width:100%; padding:12px; border-radius:12px; border:1px solid var(--border); background:var(--bg-app); color:inherit;"></select>
+            </div>
+            <div>
+                <label style="font-size:12px; font-weight:bold; margin-bottom:8px; display:block;">Giọng mặt sau</label>
+                <select id="voiceBack" style="width:100%; padding:12px; border-radius:12px; border:1px solid var(--border); background:var(--bg-app); color:inherit;"></select>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal-overlay" id="editSetOverlay">
+    <div class="modal-content modal-large">
+         <div class="panel-title">
+            <i data-lucide="edit-3"></i> <span>Chỉnh sửa thẻ</span>
+            <button id="btnCloseEdit" style="margin-left:auto; background:none; border:none; font-size:24px; color:var(--text-muted); cursor:pointer;">&times;</button>
+        </div>
+        <input type="text" id="editSetName" class="styled-input big-input" placeholder="Tên học phần">
+        <div id="editCardsList"></div>
+        <div style="display:flex; gap:12px; margin-top:20px;">
+            <button class="nav-link" id="btnEditAddCard" style="flex:1; justify-content:center;">+ Thêm thẻ</button>
+            <button class="btn-hero" id="btnSaveEditSet" style="flex:1;">Lưu học phần</button>
+        </div>
+    </div>
+</div>
+
+<script type="module" src="script.js"></script>
+<script>
+    if (typeof lucide !== 'undefined') {
+        lucide.createIcons();
+    }
+</script>
+</body>
+</html>

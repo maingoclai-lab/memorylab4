@@ -1,0 +1,11 @@
+WORD | TRANSLATION
+私 | Tôi
+あなた | Bạn
+先生 | Thầy cô
+学生 | Học sinh
+会社員 | Nhân viên công ty
+日本人 | Người Nhật
+ベトナム人 | Người Việt Nam
+富士山 | Núi Phú Sĩ
+日本語 | Tiếng Nhật
+英語 | Tiếng Anh
