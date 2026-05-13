@@ -186,7 +186,7 @@ async function renderDocuments(filter = "") {
     docList.innerHTML = list.map(docName => {
         const displayName = docName.replace(".txt", "").replace(/_/g, " ").toUpperCase();
         return `
-            <div class="deck-card doc-item" data-url="/documents/${docName}" data-name="${displayName}">
+            <div class="deck-card doc-item" data-url="documents/${docName}" data-name="${displayName}">
                 <div class="deck-main-row">
                     <div class="deck-name">${displayName}</div>
                     <div class="deck-count">TÀI LIỆU CÔNG KHAI</div>
@@ -208,12 +208,17 @@ async function renderDocuments(filter = "") {
 
 async function importFromUrl(url, setName) {
     try {
+        console.log(`Đang tải tài liệu từ: ${url}`);
         const response = await fetch(url);
+        if (!response.ok) {
+            throw new Error(`Lỗi tải file: ${response.status} ${response.statusText}`);
+        }
         const text = await response.text();
+        console.log(`Đã tải xong file, dung lượng: ${text.length} bytes`);
         importFromText(text, setName);
     } catch (e) {
         console.error("Lỗi tải tài liệu:", e);
-        alert("Không thể tải tài liệu này. Vui lòng kiểm tra lại kết nối.");
+        alert(`Không thể tải tài liệu này: ${e.message}`);
     }
 }
 
@@ -222,9 +227,14 @@ function importFromText(text, setName) {
         const lines = text.split("\n").filter(l => l.trim());
         const newCards = [];
         
-        lines.forEach(line => {
+        lines.forEach((line, idx) => {
+            // Trim whitespace from line
+            const trimmedLine = line.trim();
+            // Skip headers or empty lines
+            if (!trimmedLine || trimmedLine.toLowerCase().startsWith("word|") || trimmedLine.toLowerCase() === "word | translation") return;
+
             // Support both half-width and full-width pipe, as well as tabs
-            const parts = line.split(/[|｜\t]/);
+            const parts = trimmedLine.split(/[|｜\t]/);
             if (parts.length >= 2) {
                 const sideA = parts[0].split("/");
                 const sideB = parts[1].split("/");
@@ -239,12 +249,14 @@ function importFromText(text, setName) {
             }
         });
 
+        console.log(`Xử lý xong text: tìm thấy ${newCards.length} thẻ`);
+
         if (newCards.length > 0) {
             sets[setName] = newCards;
             localStorage.setItem("memorylab_sets", JSON.stringify(sets));
             renderDecks();
             loadSet(setName);
-            if (docOverlay) docOverlay.style.display = "none";
+            if (typeof docOverlay !== "undefined" && docOverlay) docOverlay.style.display = "none";
             document.body.classList.remove("modal-open");
             alert(`Đã nhập xong ${newCards.length} thẻ vào học phần "${setName}"`);
         } else {
@@ -432,7 +444,7 @@ searchInput?.addEventListener("input", (e) => {
         staticDocs.forEach(docName => {
             if (docName.toLowerCase().includes(query)) {
                 const displayName = docName.replace(".txt", "").replace(/_/g, " ").toUpperCase();
-                matches.push({ frontMain: displayName, backMain: "TÀI LIỆU CÔNG KHAI", setName: "Hệ thống", isDoc: true, docUrl: `/documents/${docName}` });
+                matches.push({ frontMain: displayName, backMain: "TÀI LIỆU CÔNG KHAI", setName: "Hệ thống", isDoc: true, docUrl: `documents/${docName}` });
             }
         });
     }

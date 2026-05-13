@@ -1,7 +1,7 @@
 import express from "express";
 import path from "path";
 import { createServer as createViteServer } from "vite";
-import { GoogleGenerativeAI } from "@google/genai";
+import { GoogleGenAI } from "@google/genai";
 
 async function startServer() {
   const app = express();
@@ -21,8 +21,7 @@ async function startServer() {
     }
 
     try {
-      const genAI = new GoogleGenerativeAI(apiKey);
-      const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+      const ai = new GoogleGenAI({ apiKey });
       
       const prompt = `Bạn là từ điển Nhật-Việt chuyên nghiệp, am hiểu sâu về Hán tự (Kanji). 
 Tra cứu từ: "${keyword}". 
@@ -38,8 +37,12 @@ Trả về kết quả dưới dạng HTML (không markdown, không bọc thẻ 
 - <div class="example-box">Câu tiếng Nhật <br> Nghĩa tiếng Việt</div>
 YÊU CẦU QUAN TRỌNG: Với mỗi chữ Hán trong từ, điền chính xác chữ Hán đó vào thuộc tính data-char của div class kanji-canvas.`;
 
-      const result = await model.generateContent(prompt);
-      const text = result.response.text();
+      const response = await ai.models.generateContent({
+        model: "gemini-3-flash-preview",
+        contents: prompt
+      });
+      
+      const text = response.text;
       const finalHtml = text.replace(/```html|```/g, "").trim();
 
       res.json({ html: finalHtml });
